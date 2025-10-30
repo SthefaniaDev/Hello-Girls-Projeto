@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./assets/icon.svg" type="image/x-icon">
     <title>Knoxx</title>
 </head>
 
 <body>
     <header>
-        <img src="./assets/me.svg" alt="imagem de garota com cabelos longos em preto e branco com traços minimalistas">
-        <ul>
+        <img src="./assets/Knoxx.svg" alt="">
+        <img src="./assets/me.svg" id="me-header" alt="imagem de garota com cabelos longos em preto e branco com traços minimalistas">
+        <ul id="links_nav">
             <li>Home</li>
             <li>About me</li>
             <li>Projects</li>
@@ -19,22 +21,25 @@
         </ul>
     </header>
     <main>
-        <section id="informatio">
-            <h2>Sobre mim</h2>
-            <img src="./assets/reading_icon.svg" alt="garota lendo livro e tomando café em traços minimalistas">
+      <main>
+    <section id="informatio">
+        <img src="./assets/reading_icon.svg" alt="garota lendo livro e tomando café em traços minimalistas">
 
+        <div class="texto">
+            <h2>Sobre mim</h2>
             <p>
-                Sou Knoxx, estudante de Sistemas para Internet no IFMA, <br> apaixonada por programação front-end e
-                mobile. <br>
-                Adoro transformar ideias em interfaces funcionais e criativas, <br> com foco em projetos voltados para
-                garotas e mulheres. <br>
-                Exploro também o universo do design e desenvolvimento de jogos, unindo tecnologia, arte e
-                inspiração.
+                Sou Knoxx, estudante de Sistemas para Internet no IFMA, <br> apaixonada por programação front-end e mobile. <br>
+                Adoro transformar ideias em interfaces funcionais e criativas, <br> com foco em projetos voltados para garotas e mulheres. <br>
+                Exploro também o universo do design e desenvolvimento de jogos, unindo tecnologia, arte e inspiração.
             </p>
-        </section>
-        <section id="interesses">
+        </div>
+    </section>
+
+    <section id="interesses">
+        <img src="./assets/drawing_icon.svg" alt="garota desenhando">
+
+        <div class="texto">
             <h2>Meus interesses</h2>
-            <img src="./assets/drawing_icon.svg" alt="">
             <p>Alguns dos meus interesses são:</p>
             <ul>
                 <li>Design Gráfico</li>
@@ -43,20 +48,45 @@
                 <li>Línguas Estrangeiras</li>
                 <li>Machine Learning</li>
                 <li>Fórmula 1</li>
-
             </ul>
-        </section>
+        </div>
+    </section>
+</main>
 
-        <section id="skilss">
-            <img src="./assets/html_logo.svg" alt="">
-            <img src="./assets/css_logo.svg" alt="">
-            <img src="./assets/javascript_logo.svg" alt="">
-            <img src="./assets/react_native_logo.svg" alt="">
-            <img src="./assets/python_logo.svg" alt="">
-            <img src="./assets/github_logo (1).svg" alt="">
-        </section>
 
-        <section id="Contact-form">
+      <section id="skills">
+    <h2>Hard Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <img src="./assets/github_logo (1).svg" alt="GitHub logo">
+            <p>Github</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/react_native_logo.svg" alt="React Native logo">
+            <p>React Native</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/css_logo.svg" alt="CSS logo">
+            <p>CSS</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/python_logo.svg" alt="Python logo">
+            <p>Python</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/html_logo.svg" alt="HTML logo">
+            <p>HTML</p>
+        </div>
+        <div class="skill-item">
+            <img src="./assets/javascript_logo.svg" alt="JavaScript logo">
+            <p>JavaScript</p>
+        </div>
+    </div>
+</section>
+
+  <section class="section contact">
+        <!-- Form -->
+        <div class="contact-form">
             <h3>Contact me</h3>
             <form>
                 <input type="text" placeholder="Name">
@@ -64,7 +94,7 @@
                 <textarea rows="4" placeholder="Message"></textarea>
                 <button type="submit">Send</button>
             </form>
-        </section>
+        </div>
         <section id="Contacts">
             <h3>Contact me</h3>
             <ul>
@@ -76,6 +106,7 @@
             </ul>
 
         </section>
+        
 
 
 

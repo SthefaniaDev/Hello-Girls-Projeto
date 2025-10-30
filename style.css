@@ -1,0 +1,258 @@
+/* ======= ESTILO GERAL ======= */
+body {
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background-color: #fff;
+    color: #000;
+}
+
+/* ======= HEADER ======= */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 40px;
+}
+
+header img:first-child {
+    width: 250px;
+}
+
+
+#me-header {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+#links_nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#links_nav li {
+    cursor: pointer;
+}
+
+/* ======= MAIN ======= */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin: 80px auto;
+    width: 80%;
+}
+
+/* ======= SEÇÕES ======= */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* Bloco de texto */
+.texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+/* Títulos e textos */
+.texto h2 {
+    font-family: "Georgia", serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.texto p, .texto ul {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.texto ul {
+    padding-left: 20px;
+}
+
+/* Imagens */
+section img {
+    width: 400px;
+}
+
+/* ======= POSICIONAMENTO ======= */
+#informatio {
+    flex-direction: row-reverse; /* imagem à esquerda, texto à direita */
+}
+
+#informatio .texto {
+    text-align: left; /* texto começa da esquerda */
+}
+
+
+/* 2ª seção: texto à esquerda, imagem à direita */
+#interesses {
+    flex-direction: row;
+    text-align: left;
+}
+
+/* ===== SKILLS SECTION ===== */
+#skills {
+    text-align: center;
+    margin: 120px auto;
+}
+
+#skills h2 {
+    font-family: "Georgia", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/* Container que alinha os ícones */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+/* Cada ícone + nome */
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+/* Imagens SVG */
+.skill-item img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.skill-item img:hover {
+    transform: scale(1.2);
+}
+#hardskills {
+  text-align: center;
+  margin: 60px 0;
+}
+
+#hardskills h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+#hardskills .skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+#hardskills img {
+  width: 100px;   /* aumenta ou diminui o tamanho das imagens */
+  transition: transform 0.3s ease;
+}
+
+#hardskills img:hover {
+  transform: scale(1.1); /* leve aumento ao passar o mouse */
+}
+
+
+
+  .section.contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 150px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+    .contact-form {
+      background: #000000;
+      color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      width: 300px;
+      gap:20px;
+      margin-bottom: 40px;
+    }
+
+    .contact-form h3 {
+      margin-bottom: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 290PX;
+      padding: 10px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 10px;
+      background: #2b2b2b;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #ffffff;
+      color: black;
+    }
+
+     .contact-info h3 {
+      margin-bottom: 10px;
+    }
+
+    #Contacts ul {
+      list-style: none;
+      padding: 0;
+    }
+
+        #Contacts  ul li {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+        #Contacts  a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+    }
+
+        #Contacts  a:hover {
+      text-decoration: underline;
+    }
+
+
+    footer{
+        justify-content: center;
+        align-items: center;
+        background-color: #000;
+        color: #fff;
+        height: 50px;
+    }
