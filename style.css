@@ -197,7 +197,7 @@ section img {
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
+    width: 200px;
     padding: 10px;
     margin: 8px 0;
     border: none;
