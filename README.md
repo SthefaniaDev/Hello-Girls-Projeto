@@ -29,5 +29,7 @@ Bem-vindo, esse site foi desenvolvido como **projeto final** do curso *Hello Gir
 <img width="1900" height="708" alt="image" src="https://github.com/user-attachments/assets/6fb8e0a9-33a3-42a9-bfb5-7e5fd2cfda22" />
 <img width="1892" height="1079" alt="image" src="https://github.com/user-attachments/assets/8d905ffb-2a7f-468f-ba2f-843e773fc96e" />
 
+
+˙✧˖°📷 As imagens usadas no site foram obtidas do **Pinterest**
 ```md
 
