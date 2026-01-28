@@ -4,7 +4,6 @@ Bem-vindo, esse site foi desenvolvido como **projeto final** do curso *Hello Gir
 
 🔗 **Acesse o site aqui:**  
 👉 https://sthefaniadev.github.io/Hello-Girls-Projeto/
-👉 knoxx-two.vercel.app
 
 ---
 
